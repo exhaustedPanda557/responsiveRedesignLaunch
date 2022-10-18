@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(250, 232, 152);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.constructionTape {
+    background: url(constructionTape\ Large.jpeg) center fixed;
+    height:calc(100vh - 56px);
+  }
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 85px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgb(247, 227, 52);
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgb(247, 227, 52);
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px 1.5px rgb(247, 227, 52); 
+}
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+h6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:black;
+}
+

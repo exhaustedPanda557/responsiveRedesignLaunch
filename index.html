@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href ="bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Responsive Redesign - Sojourner House RI</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Redesign of Sojourner House Website</a>
+                <div class="collapse navbar-collapse">
+                    <u1 class="navbar-nav">
+                        <li class="navbar-item"><a href="#Motivation" class="nav-link">Motivation</a></li>
+                        <li class="navbar-item"><a href="#Problems" class="nav-link">Problems</a></li>
+                        <li class="navbar-item"><a href="#Low-Fi" class="nav-link">Low-Fi</a></li>
+                        <li class="navbar-item"><a href="#designGuide" class="nav-link">Visual Design Guide</a></li>
+                        <li class="navbar-item"><a href="#Hi-Fi" class="nav-link">Hi-Fi</a></li>
+                        <li class="navbar-item"><a href="#Final-Redesign" class="nav-link">Final Redesign</a></li>
+                    </u1>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column constructionTape justify-content-center align-items-center">
+            <h1 class="display 1"> Rebuilding</h1>
+            <img src="Sojourner House logo.png" alt="Sojourner House logo" style="width:60rem; height: 11rem;">
+            <h1 class="display 1"> Website</h1>
+            <a href="#motivation" class="btn text-light btn-lg"> Check out the motivation behind the changes</a>
+        </div>
+
+        <div id="Motivation" class="container-fluid">
+            <h2 style="padding-top: 2rem; padding-bottom: 2rem">Motivation for the Rebuilding</h2>
+            <h3>What is Sojourner House?</h3>
+            <h4 style="padding-bottom: 3rem;">Sojourner House is a Providence support center for those struggling with domestic violence, sexual assualt, and human trafficking.</h4>
+            <h3>What's the problem that they face?</h3>
+            <h4>During the pandemic, they have seen a surge in both demand and volunteer interest. Unfortunately, their website is badly organized and does not clearly identify their work.</h4>
+            <div class="row" style="padding-top: 1rem;">
+                <div class="col-md-6 pb-5">
+                    <h3>What does their website look like?</h3>
+                    <div class="row" style="padding-top: 1rem; padding-left: 1rem;">
+                        <a href="https://sojournerri.org/">
+                            <h4>Sojourner House's website</h4>
+                        </a>
+                    </div>
+                    <div class="row" style="padding-left: 1rem;">
+                        <img src="sHouse website screenshot.png" alt="screenshot of Sojourner House's website" style="width: 35 rem; height: 12rem">
+                    </div>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <h3>Why did I chose to redesign this website?</h3>
+                    <h4 style="padding-top: 1rem;">I chose to rebuild Sojourner House's website because in my extracirricular activties, I've worked to raise money for the organization, but I wanted to provide non-financial help to the organization.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="Problems" class="container-fluid" style="background-color: rgb(143, 141, 141);">
+            <h2 style="padding-top: 2rem; padding-bottom: 2rem">Problems with the Current Website</h2>
+            <h3>Useability (including efficiency)</h3>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">The webpage does not mention what Sojourner House is and their mission until the footer. This makes understanding the website’s context, which is usually the first step to using a website, a long process.</li>
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">The webpage body mentions three main categories of user actions, but these options are not presented until the middle of the webpage. This slows down a user’s experience.</li>
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">The Testimony and Newsletter sections are not labeled, which forces you to read all of their content even if it doesn’t match your usage intention. Thus, it’s an inefficient layout and the useability is hurt.</li>
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">When the webpage is initially loaded, the promotion of Sojourner House's masquerade ball is such a large display that you don't see the main image text, and you might think that the webpage's purpose surrounds the event instead of the entire organization.</li>
+            </ul>
+            <h3>Learnability</h3>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">It is good that the most urgent information is on the upper and main header. The top two barriers to learnability would be language and you are in crisis and don’t have time to learn. On a laptop, the first item on the page in the upper header successfully addresses this: the left side has the option to change languages and the right side has the phone and location for time-sensitive help. On an iPad and iPhone, however, the upper header only provides the hotline. The language and location buttons are not available, which creates potential barriers.</li>
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">A user likely has one of three main intentions: to get help, to support Sojourner House, or to learn more about Sojourner House. These options are identified as the second item on the page in the main header.</li>
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">Users might want to quickly exit the window to avoid exposing their interest in Sojourner House. This user action is clearly identified and remains available through the “ESCAPE” button that remains visible as you scroll throughout the webpage.</li>
+            </ul>
+            <h3>Memorability</h3>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">It is helpful that the main header remains on the page as you scroll. It is not consistent, however, that the three user action categories described in the webpage content (“Donate”, “Get Involved”, and “Get Help”) are labeled differently than the three categories identified in the main header (“Get Help”, “Support Us”, and “About Us”).</li>
+            </ul>
+            <h3>Conceptual Model</h3>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">The conceptual model is that on the webpage, a user has three main courses of actions -- to get help, to support Sojourner House, and to learn more about Sojourner House. The website is built around this three option structure. The main header is a navigation bar with three tabs, each corresponding to one of the user actions. Additionally, one of the webpage's sections highlights this structure with a three column organization that explains each action.</li>
+            </ul>
+            <h3>Accessibility</h3>
+            <p style="font-weight: bold; font-size: large;">I used WebAIM WAVE to gain insight on the accessibility of Sojourner House's website.</p>
+            <ul class="list-group list-group-flush" style="padding-bottom: 2rem;">
+                <li class="list-group-item text-left" style="background-color: rgb(250, 232, 152); border: 2px solid grey; font-size: large;">A big accessibility issue that I agree with WebAIM WAVE's findings is that the promotional image for the masquerade ball did not include an alternative text. When the webpage is first loaded, the image takes up about a third of the display, so a user could be left with very little information about the page's content without an alternative text. Most of WebAIM WAVE's concerns flagged a low contrast between the background image and white text. Although I agree with the difficulty of reading the white text against the main background image that is first displayed when the webpage loads, I disagree with many of these red flags because the images are colorful but tinted dark, so black or any other color would be even more difficult to read. Similarly, WebAIM WAVE flagged a low contrast when the white and teal colors were used on top of each other. I agree with this and think that a black on teal combo and a darker teal would be more accessible.</li>
+            </ul>
+        </div>
+
+    
+        <div id="Low-Fi" class="container-fluid" style="background-color: rgb(250, 232, 152);">
+            <div>
+                <h2 style="padding-top: 2rem; padding-bottom: 2rem">Low-Fi Prototypes</h2>
+            </div>
+            <div class="d-flex row" style="justify-content: left;">
+                <div class="col-sm-12 col-md-12 col-lg-6 pb-5">
+                    <div class="flex-row">
+                        <h3>Mobile</h3>
+                        <img src="Low-fi Sojourner House mobile prototype with annotations.jpeg" alt="Low-fi Sojourner House mobile prototype with annotations" style="height: 60rem;">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="flex-row">
+                        <h3>Tablet</h3>
+                        <img src="Low-fi Sojourner House iPad prototype with annotations.jpeg" alt="Low-fi Sojourner House tablet prototype with annotations" style="height: 60rem;">
+                    </div>
+                    </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="flex-row">
+                        <h3>Desktop</h3>
+                        <img src="Low-fi Sojourner House Desktop with annotations.jpeg" alt="Low-fi Sojourner House desktop prototype with annotations" style="height: 60rem;">
+                    </div>
+                </div>
+            </div>
+            
+              
+        </div>
+
+        <div id="designGuide" class="container-fluid" style="background-color: rgb(143, 141, 141);">
+            <h2 style="padding-top: 2rem; padding-bottom: 2rem">Visual Design Guide</h2>
+            <h6>Here is the visual design guide that I used to create the subsequent Hi-Fi prototypes:</h6>
+            <img class="d-flex" src="visual design guide.jpg" alt="visual design guide" style="width: 40rem; padding-bottom: 2rem;">
+        </div>
+
+        <div id="Hi-Fi" class="container-fluid" style="background-color: rgb(250, 232, 152);">
+                <h2 style="padding-top: 2rem; padding-bottom: 2rem">Hi-Fi Prototypes</h2>
+            <div class="d-flex row" style="justify-content: left;">
+                <div class="col-sm-12 col-md-12 col-lg-6 pb-5">
+                    <div class="flex-row">
+                        <h3>Mobile</h3>
+                        <img src="SH hifi mobile annotations.jpg" alt="Hi-fi Sojourner House mobile prototype with annotations" style="width: 30rem;">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="flex-row">
+                        <h3>Tablet</h3>
+                        <img src="SH hifi tablet annotations.jpg" alt="Hi-fi Sojourner House tablet prototype with annotations" style="height: 60rem;">
+                    </div>
+                    </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="flex-row">
+                        <h3>Desktop</h3>
+                        <img src="SH hifi desktop annotations.jpg" alt="Hi-fi Sojourner House desktop prototype with annotations" style="height: 60rem;">
+                    </div>
+                </div>
+            </div>
+              
+        </div>
+
+        <div id="Final-Redesign" class="container-fluid" style="background-color: rgb(143, 141, 141); padding-bottom: 2rem;">
+            <h2 style="padding-top: 2rem; padding-bottom: 2rem">Final Redesign</h2>
+            <button class="btn btn-warning my-2 my-sm-0" type="button">
+                <a href="https://exhaustedpanda557.github.io/SHRedesign/">
+                    <h6>Check out my updates at this link!</h6>
+                </a>
+            </button>
+        </div>
+
+
+    </body>
+</html>
